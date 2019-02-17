@@ -1,0 +1,17 @@
+{
+  "name": "chupacabra",
+  "version": "1.0.0",
+  "description": "A fresh javscript sandbox to quicly test things out",
+  "main": "index.js",
+  "repository": "https://github.com/menor/chupacabra",
+  "author": "menor <josemenor@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "commit": "npx git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^3.0.5",
+    "cz-conventional-changelog": "^2.1.0"
+  }
+}
