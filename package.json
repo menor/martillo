@@ -8,10 +8,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "commit": "npx git-cz"
+    "commit": "commitizen",
+    "start": "nodemon index.js -q -x 'clear && node'"
   },
   "devDependencies": {
     "commitizen": "^3.0.5",
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.14.0",
+    "nodemon": "^1.18.10",
+    "prettier-standard": "^9.1.1"
   }
 }
