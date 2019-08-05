@@ -1,5 +1,5 @@
 {
-  "name": "chupacabra",
+  "name": "martillo",
   "version": "1.0.0",
   "description": "A fresh javscript sandbox to quicly test things out",
   "main": "index.js",
@@ -12,12 +12,12 @@
     "start": "nodemon index.js -q -x 'clear && node'"
   },
   "devDependencies": {
-    "commitizen": "^3.1.1",
-    "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.16.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.1.0",
     "nodemon": "^1.19.1",
     "prettier-standard": "^9.1.1",
-    "yves": "^1.0.71"
+    "yves": "^1.0.72"
   },
   "config": {
     "commitizen": {
