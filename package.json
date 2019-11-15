@@ -8,15 +8,15 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "commit": "git-cz",
+    "c": "git-cz",
     "start": "nodemon index.js -q -x 'clear && node'"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
-    "eslint": "^6.1.0",
-    "nodemon": "^1.19.1",
-    "prettier-standard": "^9.1.1",
+    "eslint": "^6.6.0",
+    "nodemon": "^1.19.4",
+    "prettier-standard": "^15.0.1",
     "yves": "^1.0.72"
   },
   "config": {
