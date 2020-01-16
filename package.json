@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A fresh javscript sandbox to quicly test things out",
   "main": "index.js",
-  "repository": "https://github.com/menor/chupacabra",
+  "repository": "https://github.com/menor/martillo",
   "author": "menor <josemenor@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -12,12 +12,12 @@
     "start": "nodemon index.js -q -x 'clear && node'"
   },
   "devDependencies": {
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
-    "eslint": "^6.6.0",
-    "nodemon": "^1.19.4",
-    "prettier-standard": "^15.0.1",
-    "yves": "^1.0.72"
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "eslint": "6.8.0",
+    "nodemon": "2.0.2",
+    "prettier-standard": "16.1.0",
+    "yves": "1.0.72"
   },
   "config": {
     "commitizen": {
