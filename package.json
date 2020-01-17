@@ -9,14 +9,20 @@
   "private": false,
   "scripts": {
     "c": "git-cz",
-    "start": "nodemon index.js -q -x 'clear && node'"
+    "dev": "nodemon src/index.ts -q -x 'clear && ts-node'",
+    "start": "ts-node src/index.ts"
   },
   "devDependencies": {
+    "@types/node": "^13.1.7",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
     "eslint": "6.8.0",
     "nodemon": "2.0.2",
     "prettier-standard": "16.1.0",
+    "ts-node": "^8.6.2",
+    "typescript": "3.7.4",
     "yves": "1.0.72"
   },
   "config": {
