@@ -12,12 +12,12 @@
     "start": "nodemon index.js -q -x 'clear && node'"
   },
   "devDependencies": {
-    "commitizen": "4.0.4",
-    "cz-conventional-changelog": "3.1.0",
-    "eslint": "6.8.0",
-    "nodemon": "2.0.3",
-    "prettier-standard": "16.2.1",
-    "yves": "1.0.74"
+    "commitizen": "4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "7.32.0",
+    "nodemon": "2.0.12",
+    "prettier-standard": "16.3.0",
+    "yves": "1.0.79"
   },
   "config": {
     "commitizen": {
