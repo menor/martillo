@@ -6,22 +6,22 @@
   "repository": "https://github.com/menor/martillo",
   "author": "menor <josemenor@gmail.com>",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "c": "git-cz",
     "start": "nodemon index.js -q -x 'clear && node'"
   },
   "devDependencies": {
-    "commitizen": "4.2.4",
-    "cz-conventional-changelog": "3.3.0",
-    "eslint": "7.32.0",
-    "nodemon": "2.0.12",
-    "prettier-standard": "16.3.0",
-    "yves": "1.0.79"
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.0.1",
+    "nodemon": "^2.0.13",
+    "prettier-standard": "^16.4.1",
+    "yves": "^1.0.80"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }
